@@ -1,0 +1,7 @@
+# manifest.yml
+version: '1.0'
+applications:
+  - name: my-simple-app
+    instances: 1
+    memory: 512M
+    buildpack: python
